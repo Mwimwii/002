@@ -1,0 +1,28 @@
+{
+  "name": "groupee-server",
+  "version": "1.0.0",
+  "description": "Groupee server with Hono, x402 and Pinata integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "x402-hono": "^0.0.0",
+    "@coinbase/x402": "^0.0.0",
+    "pinata": "^2.0.0",
+    "x402-protocol": "^0.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/dotenv": "^8.2.0"
+  }
+}

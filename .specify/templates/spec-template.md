@@ -84,11 +84,11 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: System MUST implement end-to-end encryption for all messages and files using XMTP protocol
+- **FR-002**: System MUST verify file integrity using cryptographic hashes before storing on IPFS
+- **FR-003**: Users MUST be able to send and receive messages through decentralized XMTP infrastructure
+- **FR-004**: System MUST process payments through x402 protocol for payment channels
+- **FR-005**: System MUST store all user data on decentralized IPFS with Pinata pinning service
 
 *Example of marking unclear requirements:*
 

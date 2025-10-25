@@ -31,7 +31,33 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+### Security-First Gate
+- [ ] End-to-end encryption implemented for all messages and files via XMTP
+- [ ] Payment integrity enforced through x402 protocol compliance
+- [ ] File integrity verified with cryptographic hashes before storage on IPFS
+- [ ] Authentication and authorization implemented at every layer
+- [ ] All cryptographic operations happen client-side
+
+### Decentralized-First Gate
+- [ ] XMTP protocol used for messaging infrastructure
+- [ ] IPFS with Pinata gateway for file storage and distribution
+- [ ] No single point of failure in core systems
+- [ ] Off-chain storage for all user data where possible
+- [ ] Smart contracts for payment verification when needed
+
+### UX-Driven Gate
+- [ ] UI follows familiar interaction patterns from popular messaging apps
+- [ ] Onboarding process under 2 minutes
+- [ ] Consistent design language throughout application
+- [ ] Accessibility standards (WCAG 2.1 AA) compliance verified
+- [ ] Progressive Web App (PWA) capabilities implemented
+
+### Performance-Driven Gate
+- [ ] Messages load within 500ms of sending
+- [ ] Files load within 2 seconds for sizes under 10MB
+- [ ] Application initial load under 3 seconds on 3G connection
+- [ ] Image thumbnails available instantly via IPFS pre-caching
+- [ ] Smooth animations and transitions (60fps) maintained
 
 ## Project Structure
 

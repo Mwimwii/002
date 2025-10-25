@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "402-server",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "NETWORK": "base",
+    "CDP_API_KEY_ID": "adf29100-0765-40dd-85c1-ba0223d870e8",
+    "PINATA_GATEWAY_URL": "pink-tremendous-badger-644.mypinata.cloud"
+  },
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+  // "d1_databases": [
+  //   {
+  //     "binding": "MY_DB",
+  //     "database_name": "my-database",
+  //     "database_id": ""
+  //   }
+  // ],
+  // "ai": {
+  //   "binding": "AI"
+  // },
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1
+  }
+}

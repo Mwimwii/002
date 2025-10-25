@@ -62,12 +62,12 @@ description: "Task list template for feature implementation"
 
 Examples of foundational tasks (adjust based on your project):
 
-- [ ] T004 Setup database schema and migrations framework
-- [ ] T005 [P] Implement authentication/authorization framework
-- [ ] T006 [P] Setup API routing and middleware structure
+- [ ] T004 Setup XMTP client integration for end-to-end encrypted messaging
+- [ ] T005 [P] Implement IPFS client with Pinata gateway integration for file storage
+- [ ] T006 [P] Setup x402 protocol implementation for payment channels
 - [ ] T007 Create base models/entities that all stories depend on
-- [ ] T008 Configure error handling and logging infrastructure
-- [ ] T009 Setup environment configuration management
+- [ ] T008 Configure client-side cryptographic operations framework
+- [ ] T009 Setup decentralized authentication infrastructure
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -152,10 +152,13 @@ Examples of foundational tasks (adjust based on your project):
 
 - [ ] TXXX [P] Documentation updates in docs/
 - [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
+- [ ] TXXX Performance optimization across all stories to meet 500ms message load and 2s file load requirements
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
-- [ ] TXXX Security hardening
+- [ ] TXXX Security hardening: verify all data is encrypted end-to-end and all cryptographic operations happen client-side
 - [ ] TXXX Run quickstart.md validation
+- [ ] TXXX Validate all data stored on IPFS instead of centralized servers
+- [ ] TXXX Confirm all messaging uses XMTP protocol for decentralization
+- [ ] TXXX Verify payment processing through x402 protocol
 
 ---
 
